@@ -1,0 +1,425 @@
+
+🍹 MoodMix 火山引擎豆包代理服务已启动
+   端口: 3001
+   Endpoint: ep-20260312135819-2tl8g
+   API Key: ✅ 已配置
+   端点: POST http://localhost:3001/api/analyze_mood
+
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=b
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=b
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17222","strDrink":"A1","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail glass","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17222","strDrink":"A1","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail glass","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15853","strDrink":"B-52","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Shot","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlass":"Sh
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15853","strDrink":"B-52","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Shot","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlass":"Sh
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=d
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=d
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17185","strDrink":"Casino","strDrinkAlternate":null,"strTags":"IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=C6v8NsaDNj8","strCategory":"Ordinary Drink","strIBA":"Unforget
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17187","strDrink":"Derby","strDrinkAlternate":null,"strTags":"Classic,IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=bYQTTokGkFI","strCategory":"Ordinary Drink","strIBA":"U
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17185","strDrink":"Casino","strDrinkAlternate":null,"strTags":"IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=C6v8NsaDNj8","strCategory":"Ordinary Drink","strIBA":"Unforget
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17187","strDrink":"Derby","strDrinkAlternate":null,"strTags":"Classic,IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=bYQTTokGkFI","strCategory":"Ordinary Drink","strIBA":"U
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=e
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=f
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"178352","strDrink":"Fros\u00e9","strDrinkAlternate":null,"strTags":"Cold, Frozen, Summer","strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strG
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=e
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=f
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12668","strDrink":"Egg Cream","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"C
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=h
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15997","strDrink":"GG","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Optional alcohol","strGlass":"Collins
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"178352","strDrink":"Fros\u00e9","strDrinkAlternate":null,"strTags":"Cold, Frozen, Summer","strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strG
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12668","strDrink":"Egg Cream","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"C
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"16262","strDrink":"H.D.","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer mug","st
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=h
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=i
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=j
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15997","strDrink":"GG","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Optional alcohol","strGlass":"Collins
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17178","strDrink":"Jam Donut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Shot","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Shot glass","strI
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"16262","strDrink":"H.D.","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer mug","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17176","strDrink":"Ipamena","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Wine 
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=i
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=j
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=k
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=l
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17176","strDrink":"Ipamena","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Wine 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17178","strDrink":"Jam Donut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Shot","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Shot glass","strI
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17203","strDrink":"Kir","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12704","strDrink":"Limeade","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Hig
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=k
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=l
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=n
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12704","strDrink":"Limeade","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Hig
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11003","strDrink":"Negroni","strDrinkAlternate":null,"strTags":"IBA,Classic","strVideo":"https:\/\/www.youtube.com\/watch?v=Y4LH0FQlU8Q","strCategory":"Ordinary Drink","strIBA":
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17203","strDrink":"Kir","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12776","strDrink":"Melya","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Coffee m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=n
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11003","strDrink":"Negroni","strDrinkAlternate":null,"strTags":"IBA,Classic","strVideo":"https:\/\/www.youtube.com\/watch?v=Y4LH0FQlU8Q","strCategory":"Ordinary Drink","strIBA":
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=o
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=p
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12776","strDrink":"Melya","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Coffee m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11872","strDrink":"Orgasm","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=p
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=o
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17253","strDrink":"Paloma","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collins glass","
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17253","strDrink":"Paloma","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collins glass","
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11872","strDrink":"Orgasm","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=q
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=r
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11993","strDrink":"Quentin","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail 
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=q
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=r
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11993","strDrink":"Quentin","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17208","strDrink":"Rose","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":"Contemporary Classics","strAlcohol
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17208","strDrink":"Rose","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":"Contemporary Classics","strAlcohol
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=s
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=t
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=s
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=t
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12388","strDrink":"Thriller","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12388","strDrink":"Thriller","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17141","strDrink":"Smut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Punch \/ Party Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17141","strDrink":"Smut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Punch \/ Party Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=u
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=v
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=u
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=v
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17218","strDrink":"Vesper","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlas
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17218","strDrink":"Vesper","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlas
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=w
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=x
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=w
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=x
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12518","strDrink":"Whisky Mac","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collin
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12518","strDrink":"Whisky Mac","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collin
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=y
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=y
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17219","strDrink":"Yellow Bird","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17219","strDrink":"Yellow Bird","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15328","strDrink":"Zorro","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Coffee Mug",
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15328","strDrink":"Zorro","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Coffee Mug",
+[QuoteGenerator] Error: The operation was aborted.
+[3:00:49 PM] 分析完成: "#放松..." → isNegative=false
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=b
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=b
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15853","strDrink":"B-52","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Shot","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlass":"Sh
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17222","strDrink":"A1","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail glass","str
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=d
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17185","strDrink":"Casino","strDrinkAlternate":null,"strTags":"IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=C6v8NsaDNj8","strCategory":"Ordinary Drink","strIBA":"Unforget
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17187","strDrink":"Derby","strDrinkAlternate":null,"strTags":"Classic,IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=bYQTTokGkFI","strCategory":"Ordinary Drink","strIBA":"U
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17222","strDrink":"A1","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail glass","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15853","strDrink":"B-52","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Shot","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlass":"Sh
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=e
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=f
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=d
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12668","strDrink":"Egg Cream","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"C
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"178352","strDrink":"Fros\u00e9","strDrinkAlternate":null,"strTags":"Cold, Frozen, Summer","strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strG
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17187","strDrink":"Derby","strDrinkAlternate":null,"strTags":"Classic,IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=bYQTTokGkFI","strCategory":"Ordinary Drink","strIBA":"U
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=h
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"16262","strDrink":"H.D.","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer mug","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15997","strDrink":"GG","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Optional alcohol","strGlass":"Collins
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=i
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=j
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17185","strDrink":"Casino","strDrinkAlternate":null,"strTags":"IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=C6v8NsaDNj8","strCategory":"Ordinary Drink","strIBA":"Unforget
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17178","strDrink":"Jam Donut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Shot","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Shot glass","strI
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17176","strDrink":"Ipamena","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Wine 
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=e
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=f
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=k
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=l
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12668","strDrink":"Egg Cream","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"C
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12704","strDrink":"Limeade","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Hig
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"178352","strDrink":"Fros\u00e9","strDrinkAlternate":null,"strTags":"Cold, Frozen, Summer","strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strG
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=h
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=g
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"16262","strDrink":"H.D.","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer mug","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17203","strDrink":"Kir","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15997","strDrink":"GG","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Optional alcohol","strGlass":"Collins
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=n
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=i
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=j
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12776","strDrink":"Melya","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Coffee m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17178","strDrink":"Jam Donut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Shot","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Shot glass","strI
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17176","strDrink":"Ipamena","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Wine 
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=b
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=b
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11003","strDrink":"Negroni","strDrinkAlternate":null,"strTags":"IBA,Classic","strVideo":"https:\/\/www.youtube.com\/watch?v=Y4LH0FQlU8Q","strCategory":"Ordinary Drink","strIBA":
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17222","strDrink":"A1","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail glass","str
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=k
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=l
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=o
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=p
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17203","strDrink":"Kir","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15853","strDrink":"B-52","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Shot","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlass":"Sh
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12704","strDrink":"Limeade","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Hig
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11872","strDrink":"Orgasm","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail g
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15853","strDrink":"B-52","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Shot","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlass":"Sh
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=d
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=n
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17187","strDrink":"Derby","strDrinkAlternate":null,"strTags":"Classic,IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=bYQTTokGkFI","strCategory":"Ordinary Drink","strIBA":"U
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12776","strDrink":"Melya","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Coffee m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17253","strDrink":"Paloma","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collins glass","
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11003","strDrink":"Negroni","strDrinkAlternate":null,"strTags":"IBA,Classic","strVideo":"https:\/\/www.youtube.com\/watch?v=Y4LH0FQlU8Q","strCategory":"Ordinary Drink","strIBA":
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17185","strDrink":"Casino","strDrinkAlternate":null,"strTags":"IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=C6v8NsaDNj8","strCategory":"Ordinary Drink","strIBA":"Unforget
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=q
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=r
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=p
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=o
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=e
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=f
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11993","strDrink":"Quentin","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11872","strDrink":"Orgasm","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail g
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"178352","strDrink":"Fros\u00e9","strDrinkAlternate":null,"strTags":"Cold, Frozen, Summer","strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strG
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12668","strDrink":"Egg Cream","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"C
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=h
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17222","strDrink":"A1","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail glass","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17253","strDrink":"Paloma","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collins glass","
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17208","strDrink":"Rose","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":"Contemporary Classics","strAlcohol
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15997","strDrink":"GG","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Optional alcohol","strGlass":"Collins
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=d
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"16262","strDrink":"H.D.","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer mug","st
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=q
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=r
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=s
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=t
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11993","strDrink":"Quentin","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17208","strDrink":"Rose","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":"Contemporary Classics","strAlcohol
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=i
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=j
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17185","strDrink":"Casino","strDrinkAlternate":null,"strTags":"IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=C6v8NsaDNj8","strCategory":"Ordinary Drink","strIBA":"Unforget
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17187","strDrink":"Derby","strDrinkAlternate":null,"strTags":"Classic,IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=bYQTTokGkFI","strCategory":"Ordinary Drink","strIBA":"U
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=s
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=t
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=e
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=f
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17141","strDrink":"Smut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Punch \/ Party Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12388","strDrink":"Thriller","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"178352","strDrink":"Fros\u00e9","strDrinkAlternate":null,"strTags":"Cold, Frozen, Summer","strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strG
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17176","strDrink":"Ipamena","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Wine 
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=u
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=v
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12668","strDrink":"Egg Cream","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"C
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17178","strDrink":"Jam Donut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Shot","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Shot glass","strI
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17218","strDrink":"Vesper","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlas
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17141","strDrink":"Smut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Punch \/ Party Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=h
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=k
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=l
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=w
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=x
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15997","strDrink":"GG","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Optional alcohol","strGlass":"Collins
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17203","strDrink":"Kir","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","str
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12518","strDrink":"Whisky Mac","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collin
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"16262","strDrink":"H.D.","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer mug","st
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=y
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=i
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=j
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15328","strDrink":"Zorro","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Coffee Mug",
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12388","strDrink":"Thriller","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17176","strDrink":"Ipamena","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Wine 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17219","strDrink":"Yellow Bird","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12704","strDrink":"Limeade","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Hig
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17178","strDrink":"Jam Donut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Shot","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Shot glass","strI
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=u
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=v
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=l
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=k
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=n
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11003","strDrink":"Negroni","strDrinkAlternate":null,"strTags":"IBA,Classic","strVideo":"https:\/\/www.youtube.com\/watch?v=Y4LH0FQlU8Q","strCategory":"Ordinary Drink","strIBA":
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17203","strDrink":"Kir","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12776","strDrink":"Melya","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Coffee m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17218","strDrink":"Vesper","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlas
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12704","strDrink":"Limeade","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Hig
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=o
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=p
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=x
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=w
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=n
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12518","strDrink":"Whisky Mac","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collin
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11872","strDrink":"Orgasm","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail g
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11003","strDrink":"Negroni","strDrinkAlternate":null,"strTags":"IBA,Classic","strVideo":"https:\/\/www.youtube.com\/watch?v=Y4LH0FQlU8Q","strCategory":"Ordinary Drink","strIBA":
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12776","strDrink":"Melya","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Coffee m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=y
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15328","strDrink":"Zorro","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Coffee Mug",
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17219","strDrink":"Yellow Bird","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","st
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=p
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=o
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11872","strDrink":"Orgasm","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail g
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17253","strDrink":"Paloma","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collins glass","
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17253","strDrink":"Paloma","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collins glass","
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=q
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=r
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=q
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=r
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11993","strDrink":"Quentin","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11993","strDrink":"Quentin","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17208","strDrink":"Rose","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":"Contemporary Classics","strAlcohol
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17208","strDrink":"Rose","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":"Contemporary Classics","strAlcohol
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=s
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=t
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=s
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=t
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17141","strDrink":"Smut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Punch \/ Party Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12388","strDrink":"Thriller","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12388","strDrink":"Thriller","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17141","strDrink":"Smut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Punch \/ Party Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=u
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=v
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=u
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=v
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17218","strDrink":"Vesper","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlas
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17218","strDrink":"Vesper","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlas
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=w
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=x
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=w
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=x
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12518","strDrink":"Whisky Mac","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collin
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12518","strDrink":"Whisky Mac","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collin
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=y
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=y
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15328","strDrink":"Zorro","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Coffee Mug",
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15328","strDrink":"Zorro","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Coffee Mug",
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17219","strDrink":"Yellow Bird","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17219","strDrink":"Yellow Bird","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","st
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=b
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=b
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17222","strDrink":"A1","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail glass","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15853","strDrink":"B-52","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Shot","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlass":"Sh
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17222","strDrink":"A1","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail glass","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15853","strDrink":"B-52","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Shot","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlass":"Sh
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=d
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17187","strDrink":"Derby","strDrinkAlternate":null,"strTags":"Classic,IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=bYQTTokGkFI","strCategory":"Ordinary Drink","strIBA":"U
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=c
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=d
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17185","strDrink":"Casino","strDrinkAlternate":null,"strTags":"IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=C6v8NsaDNj8","strCategory":"Ordinary Drink","strIBA":"Unforget
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17187","strDrink":"Derby","strDrinkAlternate":null,"strTags":"Classic,IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=bYQTTokGkFI","strCategory":"Ordinary Drink","strIBA":"U
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=e
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=f
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17185","strDrink":"Casino","strDrinkAlternate":null,"strTags":"IBA","strVideo":"https:\/\/www.youtube.com\/watch?v=C6v8NsaDNj8","strCategory":"Ordinary Drink","strIBA":"Unforget
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=e
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=f
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12668","strDrink":"Egg Cream","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"C
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"178352","strDrink":"Fros\u00e9","strDrinkAlternate":null,"strTags":"Cold, Frozen, Summer","strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strG
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"178352","strDrink":"Fros\u00e9","strDrinkAlternate":null,"strTags":"Cold, Frozen, Summer","strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strG
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12668","strDrink":"Egg Cream","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"C
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=h
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15997","strDrink":"GG","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Optional alcohol","strGlass":"Collins
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=h
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=g
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"16262","strDrink":"H.D.","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer mug","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"16262","strDrink":"H.D.","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer mug","st
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=i
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=j
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17176","strDrink":"Ipamena","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Wine 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17178","strDrink":"Jam Donut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Shot","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Shot glass","strI
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=k
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=l
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15997","strDrink":"GG","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Optional alcohol","strGlass":"Collins
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17203","strDrink":"Kir","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12704","strDrink":"Limeade","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Hig
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=j
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=i
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=n
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17178","strDrink":"Jam Donut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Shot","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Shot glass","strI
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17176","strDrink":"Ipamena","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Wine 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12776","strDrink":"Melya","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Coffee m
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=k
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=l
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11003","strDrink":"Negroni","strDrinkAlternate":null,"strTags":"IBA,Classic","strVideo":"https:\/\/www.youtube.com\/watch?v=Y4LH0FQlU8Q","strCategory":"Ordinary Drink","strIBA":
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17203","strDrink":"Kir","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","str
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12704","strDrink":"Limeade","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Other \/ Unknown","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Hig
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=o
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=p
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=n
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17253","strDrink":"Paloma","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collins glass","
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12776","strDrink":"Melya","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Non alcoholic","strGlass":"Coffee m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11003","strDrink":"Negroni","strDrinkAlternate":null,"strTags":"IBA,Classic","strVideo":"https:\/\/www.youtube.com\/watch?v=Y4LH0FQlU8Q","strCategory":"Ordinary Drink","strIBA":
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11872","strDrink":"Orgasm","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=o
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=p
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=q
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=r
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17253","strDrink":"Paloma","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Cocktail","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collins glass","
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11993","strDrink":"Quentin","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17208","strDrink":"Rose","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":"Contemporary Classics","strAlcohol
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11872","strDrink":"Orgasm","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail g
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=s
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=t
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=q
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=r
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"11993","strDrink":"Quentin","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail 
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17208","strDrink":"Rose","strDrinkAlternate":null,"strTags":"IBA,ContemporaryClassic","strVideo":null,"strCategory":"Ordinary Drink","strIBA":"Contemporary Classics","strAlcohol
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17141","strDrink":"Smut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Punch \/ Party Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12388","strDrink":"Thriller","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=s
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=t
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=u
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=v
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17218","strDrink":"Vesper","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlas
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17141","strDrink":"Smut","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Punch \/ Party Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Beer m
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12388","strDrink":"Thriller","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Cocktail
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=w
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=x
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=u
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=v
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17218","strDrink":"Vesper","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","strGlas
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12518","strDrink":"Whisky Mac","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collin
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=w
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=x
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=y
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
+[CocktailDB] Status: 200 Body: {"drinks":null}
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17219","strDrink":"Yellow Bird","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15328","strDrink":"Zorro","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Coffee Mug",
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"12518","strDrink":"Whisky Mac","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Ordinary Drink","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Collin
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=y
+[CocktailDB Proxy] GET https://www.thecocktaildb.com/api/json/v1/1/search.php?f=z
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"17219","strDrink":"Yellow Bird","strDrinkAlternate":null,"strTags":"IBA,NewEra","strVideo":null,"strCategory":"Cocktail","strIBA":"New Era Drinks","strAlcoholic":"Alcoholic","st
+[CocktailDB] Status: 200 Body: {"drinks":[{"idDrink":"15328","strDrink":"Zorro","strDrinkAlternate":null,"strTags":null,"strVideo":null,"strCategory":"Coffee \/ Tea","strIBA":null,"strAlcoholic":"Alcoholic","strGlass":"Coffee Mug",

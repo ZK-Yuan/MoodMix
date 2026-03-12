@@ -66,9 +66,9 @@ app.use('/api/cocktaildb', async (req, res) => {
   }
 });
 
-// SiliconFlow API 配置
-const SILICONFLOW_API_URL = 'https://api.siliconflow.cn/v1/chat/completions';
-const SILICONFLOW_MODEL = process.env.SILICONFLOW_MODEL || 'Qwen/Qwen2.5-72B-Instruct';
+// 火山引擎 豆包 API 配置
+const VOLCENGINE_API_URL = process.env.VOLCENGINE_API_URL || 'https://ark.cn-beijing.volces.com/api/v3/chat/completions';
+const VOLCENGINE_ENDPOINT = process.env.VOLCENGINE_ENDPOINT;
 
 /**
  * POST /api/analyze_mood
@@ -77,12 +77,20 @@ const SILICONFLOW_MODEL = process.env.SILICONFLOW_MODEL || 'Qwen/Qwen2.5-72B-Ins
  * Response: { success: boolean, data?: object, error?: string }
  */
 app.post('/api/analyze_mood', async (req, res) => {
-  const apiKey = process.env.SILICONFLOW_API_KEY;
+  const apiKey = process.env.VOLCENGINE_API_KEY;
+  const endpoint = process.env.VOLCENGINE_ENDPOINT;
 
   if (!apiKey || apiKey === 'your_key_here') {
     return res.status(500).json({
       success: false,
-      error: 'SILICONFLOW_API_KEY 未配置。请在 .env 文件中设置你的 API Key。'
+      error: 'VOLCENGINE_API_KEY 未配置。请在 .env 文件中设置你的 API Key。'
+    });
+  }
+
+  if (!endpoint || endpoint === 'your-endpoint-id-here') {
+    return res.status(500).json({
+      success: false,
+      error: 'VOLCENGINE_ENDPOINT 未配置。请在 .env 文件中设置你的推理接入点 Endpoint ID。'
     });
   }
 
@@ -104,28 +112,27 @@ app.post('/api/analyze_mood', async (req, res) => {
     const systemPrompt = buildSystemPrompt();
     const userMessage = buildUserMessage(user_input.trim(), timeInfo);
 
-    // 设置后端物理截断超时 (50秒)
+    // 设置后端物理截断超时 (120秒)
     const controller = new AbortController();
     const timeoutId = setTimeout(() => {
       controller.abort();
-    }, 50000);
+    }, 120000);
 
     let response;
     try {
-      response = await fetch(SILICONFLOW_API_URL, {
+      response = await fetch(VOLCENGINE_API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: SILICONFLOW_MODEL,
+          model: endpoint,
           messages: [
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userMessage }
           ],
-          temperature: 0.5,
-          response_format: { type: 'json_object' }
+          temperature: 0.5
         }),
         signal: controller.signal
       });
@@ -135,7 +142,7 @@ app.post('/api/analyze_mood', async (req, res) => {
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error(`SiliconFlow API 错误 [${response.status}]:`, errorText);
+      console.error(`火山引擎 API 错误 [${response.status}]:`, errorText);
       return res.status(502).json({
         success: false,
         error: `大模型 API 返回错误: ${response.status}`
@@ -188,9 +195,13 @@ app.post('/api/analyze_mood', async (req, res) => {
  * Response: { success: true, quotes: { [id]: "「诗句」" } }
  */
 app.post('/api/generate_quotes', async (req, res) => {
-  const apiKey = process.env.SILICONFLOW_API_KEY;
+  const apiKey = process.env.VOLCENGINE_API_KEY;
+  const endpoint = process.env.VOLCENGINE_ENDPOINT;
   if (!apiKey || apiKey === 'your_key_here') {
     return res.status(500).json({ success: false, error: 'API Key 未配置' });
+  }
+  if (!endpoint || endpoint === 'your-endpoint-id-here') {
+    return res.status(500).json({ success: false, error: 'VOLCENGINE_ENDPOINT 未配置' });
   }
 
   const { items } = req.body;
@@ -230,20 +241,19 @@ app.post('/api/generate_quotes', async (req, res) => {
 
     let response;
     try {
-      response = await fetch(SILICONFLOW_API_URL, {
+      response = await fetch(VOLCENGINE_API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: SILICONFLOW_MODEL,
+          model: endpoint,
           messages: [
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userContent }
           ],
-          temperature: 0.7, // 稍微高一点，让诗句更有创造力
-          response_format: { type: 'json_object' }
+          temperature: 0.7 // 稍微高一点，让诗句更有创造力
         }),
         signal: controller.signal
       });
@@ -286,9 +296,13 @@ app.post('/api/generate_quotes', async (req, res) => {
  * Response: { success: boolean, vector?: number[], dimensions?: object, error?: string }
  */
 app.post('/api/generate-drink-dimensions', async (req, res) => {
-  const apiKey = process.env.SILICONFLOW_API_KEY;
+  const apiKey = process.env.VOLCENGINE_API_KEY;
+  const endpoint = process.env.VOLCENGINE_ENDPOINT;
   if (!apiKey || apiKey === 'your_key_here') {
     return res.status(500).json({ success: false, error: 'API Key 未配置' });
+  }
+  if (!endpoint || endpoint === 'your-endpoint-id-here') {
+    return res.status(500).json({ success: false, error: 'VOLCENGINE_ENDPOINT 未配置' });
   }
 
   const { name, description, ingredients, isAlcoholic } = req.body;
@@ -344,20 +358,19 @@ app.post('/api/generate-drink-dimensions', async (req, res) => {
 
     let response;
     try {
-      response = await fetch(SILICONFLOW_API_URL, {
+      response = await fetch(VOLCENGINE_API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: SILICONFLOW_MODEL,
+          model: endpoint,
           messages: [
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userContent }
           ],
-          temperature: 0.5,
-          response_format: { type: 'json_object' }
+          temperature: 0.5
         }),
         signal: controller.signal
       });
@@ -571,12 +584,20 @@ function buildUserMessage(userInput, timeInfo) {
 // 饮品制作助手 API
 // ═══════════════════════════════════════════
 app.post('/api/drink-assistant', async (req, res) => {
-  const apiKey = process.env.SILICONFLOW_API_KEY;
+  const apiKey = process.env.VOLCENGINE_API_KEY;
+  const endpoint = process.env.VOLCENGINE_ENDPOINT;
 
   if (!apiKey || apiKey === 'your_key_here') {
     return res.status(500).json({
       success: false,
-      error: 'SILICONFLOW_API_KEY 未配置'
+      error: 'VOLCENGINE_API_KEY 未配置'
+    });
+  }
+
+  if (!endpoint || endpoint === 'your-endpoint-id-here') {
+    return res.status(500).json({
+      success: false,
+      error: 'VOLCENGINE_ENDPOINT 未配置'
     });
   }
 
@@ -625,14 +646,14 @@ ${question}
 
 请给出实用建议。`;
 
-    const response = await fetch(SILICONFLOW_API_URL, {
+    const response = await fetch(VOLCENGINE_API_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${apiKey}`
       },
       body: JSON.stringify({
-        model: SILICONFLOW_MODEL,
+        model: endpoint,
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userMessage }
@@ -660,10 +681,11 @@ ${question}
 
 // ─── 启动服务器 ───
 app.listen(PORT, () => {
-  const hasKey = process.env.SILICONFLOW_API_KEY && process.env.SILICONFLOW_API_KEY !== 'your_key_here';
-  console.log(`\n🍹 MoodMix SiliconFlow 代理服务已启动`);
+  const hasKey = process.env.VOLCENGINE_API_KEY && process.env.VOLCENGINE_API_KEY !== 'your_key_here';
+  const hasEndpoint = process.env.VOLCENGINE_ENDPOINT && process.env.VOLCENGINE_ENDPOINT !== 'your-endpoint-id-here';
+  console.log(`\n🍹 MoodMix 火山引擎豆包代理服务已启动`);
   console.log(`   端口: ${PORT}`);
-  console.log(`   模型: ${SILICONFLOW_MODEL}`);
-  console.log(`   API Key: ${hasKey ? '✅ 已配置' : '❌ 未配置 — 请在 .env 中设置 SILICONFLOW_API_KEY'}`);
+  console.log(`   Endpoint: ${hasEndpoint ? process.env.VOLCENGINE_ENDPOINT : '❌ 未配置'}`);
+  console.log(`   API Key: ${hasKey ? '✅ 已配置' : '❌ 未配置 — 请在 .env 中设置 VOLCENGINE_API_KEY'}`);
   console.log(`   端点: POST http://localhost:${PORT}/api/analyze_mood\n`);
 });

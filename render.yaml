@@ -8,9 +8,11 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
-      - key: SILICONFLOW_API_KEY
+      - key: VOLCENGINE_API_KEY
         sync: false
-      - key: SILICONFLOW_MODEL
-        value: Qwen/Qwen2.5-72B-Instruct
+      - key: VOLCENGINE_ENDPOINT
+        sync: false
+      - key: VOLCENGINE_API_URL
+        value: https://ark.cn-beijing.volces.com/api/v3/chat/completions
       - key: PORT
         value: 10000

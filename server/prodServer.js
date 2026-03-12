@@ -72,15 +72,16 @@ app.get('/api/test', (req, res) => {
 // LLM 代理路由
 // ═══════════════════════════════════════════
 
-const SILICONFLOW_API_URL = 'https://api.siliconflow.cn/v1/chat/completions';
-const SILICONFLOW_MODEL = process.env.SILICONFLOW_MODEL || 'Qwen/Qwen2.5-72B-Instruct';
+const VOLCENGINE_API_URL = process.env.VOLCENGINE_API_URL || 'https://ark.cn-beijing.volces.com/api/v3/chat/completions';
+const VOLCENGINE_ENDPOINT = process.env.VOLCENGINE_ENDPOINT;
 
 /**
  * POST /api/analyze_mood
  * 分析用户输入的心情，生成个性化饮品推荐维度
  */
 app.post('/api/analyze_mood', async (req, res) => {
-  const apiKey = process.env.SILICONFLOW_API_KEY;
+  const apiKey = process.env.VOLCENGINE_API_KEY;
+  const endpoint = process.env.VOLCENGINE_ENDPOINT;
 
   console.log('[API] /api/analyze_mood - API Key 状态:', apiKey ? '已配置' : '未配置');
 
@@ -130,7 +131,7 @@ app.post('/api/analyze_mood', async (req, res) => {
 
     if (!response.ok) {
       const errorData = await response.text();
-      console.error('SiliconFlow API error:', response.status, errorData);
+      console.error('Volcengine API error:', response.status, errorData);
       return res.status(response.status).json({
         success: false,
         error: `SiliconFlow API returned ${response.status}`
